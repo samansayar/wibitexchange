@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+
+    .title {
+        @apply flex justify-start w-full items-center lg:text-xl text-lg font-medium py-4 text-right;
+    }
+    .bg-grdient {
+        @apply bg-gradient-to-bl to-pink-600 from-yellow-600;
+    }
+    .btn{
+        @apply bg-grdient active:scale-90 hover:opacity-100 opacity-90 transition duration-150  flex justify-center items-center text-xs px-2 py-2 rounded-lg shadow-md;
+    }
+}
+
+@tailwind utilities;
